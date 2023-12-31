@@ -13,30 +13,29 @@
 <body>
     <div class = "container">
         <div class="row mt-5">
-            <h1>회원가입</h1>
+            <h1>Registration</h1>
         </div>
         <div class="row mt-5">
         <div class="col-12">
             <form method="POST" >
                 <div class="form-group">
-                    <label for="userid">아이디</label>
-                    <input type="text" class="form-control" id="userid" placeholder="아이디" name="userid"/>
-                    <!-- id는 삭제해도 되더라. 마지막에 name과 app.py의 get 메소드 사용하는 부분이 일치해야 상응한다 -->
+                    <label for="userid">ID</label>
+                    <input type="text" class="form-control" id="userid" placeholder="ID" name="userid"/>
                 </div>
                 <div class="form-group">
-                    <label for="username">사용자 이름</label>
-                    <input type="text" class="form-control" id="username" placeholder="사용자 이름" name="username"/>
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Username" name="username"/>
 
                 </div>
                 <div class="form-group">
-                    <label for="password">비밀번호</label>
-                    <input type="password" class="form-control" id="password" placeholder="비밀번호" name="password"/>
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" name="password"/>
                 </div>
                 <div class="form-group">
-                    <label for="re_password">비밀번호확인</label>
-                    <input type="password" class="form-control" id="re_password" placeholder="비밀번호확인" name="re_password"/>
+                    <label for="re_password">Confirm password</label>
+                    <input type="password" class="form-control" id="re_password" placeholder="Confirm password" name="re_password"/>
                 </div>
-                <button type="submit" class="btn btn-primary">등록</button>
+                <button type="submit" class="btn btn-primary">Register</button>
             </form>
         </div>
         </div>
